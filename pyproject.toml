@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-blog"
+version = "0.1.0"
+description = "Simple Flask blog app based on Corey Schafer's tutorial"
+authors = ["Julia Didenko <iuliia.didenko@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flask_blog"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+Flask = "^2.2.2"
+flake8 = "^5.0.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
