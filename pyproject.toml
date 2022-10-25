@@ -13,6 +13,9 @@ python = "^3.8"
 [tool.poetry.group.dev.dependencies]
 Flask = "^2.2.2"
 flake8 = "^5.0.4"
+bcrypt = "^4.0.1"
+flask-sqlalchemy = "^3.0.2"
+WTForms = "^3.0.1"
 
 [build-system]
 requires = ["poetry-core"]
