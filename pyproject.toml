@@ -8,6 +8,8 @@ packages = [{include = "flask_blog"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+flask = "^2.2.2"
+gunicorn = "^20.1.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -22,5 +24,5 @@ Flask-Mail = "^0.9.1"
 gunicorn = "^20.1.0"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry>=1.2.1"]
 build-backend = "poetry.core.masonry.api"
