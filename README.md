@@ -14,8 +14,8 @@ Main features:
 ![Flask Blog - Register](https://user-images.githubusercontent.com/104693196/200188102-52c80fdb-cc85-420b-87d8-d44a38deb1f5.gif)  
 
 ### Password reset
-![reset_pwd](https://user-images.githubusercontent.com/104693196/200189392-d2e3d1e0-5e2f-4404-88dd-7db3d9b1823c.png)  
-![pwd_token](https://user-images.githubusercontent.com/104693196/200189483-4a475624-c8be-4f59-9a56-16e2351a7487.png)
+![reset_pwd](https://user-images.githubusercontent.com/104693196/200189594-19a44305-b156-4d4c-b4bc-21a5f8b26b19.png)
+![pwd_token](https://user-images.githubusercontent.com/104693196/200189603-9f5093ad-d071-4697-ad6d-8f556471721a.png)
 
 ### Create, update, delete post. Show user posts count
 ![Flask Blog - Account](https://user-images.githubusercontent.com/104693196/200188294-7abf933c-2df1-4e4b-8783-fb53f63f77a4.gif)
