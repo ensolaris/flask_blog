@@ -1,6 +1,7 @@
 ## Basic Flask Blog application
 Main features:
-* Register/login. Email a token for password reset
+* Register/login 
+* Email a token for password reset
 * Create, delete, update posts
 * Display posts on multiple pages
 
@@ -9,8 +10,12 @@ Main features:
 ## Demo
 ![Flask Blog (1)](https://user-images.githubusercontent.com/104693196/200183520-89ccfd05-52a0-47bf-92b4-c20e7bd70957.gif) 
 
-### Create a new user, edit profile - add new userpic
-![Flask Blog - Register](https://user-images.githubusercontent.com/104693196/200188102-52c80fdb-cc85-420b-87d8-d44a38deb1f5.gif)
+### Create new user, edit profile -  change login, email, update profile pic
+![Flask Blog - Register](https://user-images.githubusercontent.com/104693196/200188102-52c80fdb-cc85-420b-87d8-d44a38deb1f5.gif)  
 
-### Create, update, delete a post. Show count of user's post
+### Password reset
+![reset_pwd](https://user-images.githubusercontent.com/104693196/200189392-d2e3d1e0-5e2f-4404-88dd-7db3d9b1823c.png)  
+![pwd_token](https://user-images.githubusercontent.com/104693196/200189483-4a475624-c8be-4f59-9a56-16e2351a7487.png)
+
+### Create, update, delete post. Show user posts count
 ![Flask Blog - Account](https://user-images.githubusercontent.com/104693196/200188294-7abf933c-2df1-4e4b-8783-fb53f63f77a4.gif)
