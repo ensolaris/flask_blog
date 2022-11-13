@@ -34,14 +34,11 @@ COPY poetry.lock pyproject.toml ./
 RUN poetry check
 
 # Install Dependencies
-RUN poetry install --no-interaction --no-cache --without dev
+RUN poetry install --no-interaction --no-cache --no-dev --no-root
 
 # Copy Application
-COPY . /flask_blog
+COPY . .
 
 # Run Application
 EXPOSE 5000
 CMD [ "poetry", "run", "python", "-m", "run", "run", "--host=0.0.0.0" ]
-
-
-
