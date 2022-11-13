@@ -38,4 +38,5 @@ RUN poetry install --no-interaction --no-cache --no-dev --no-root
 COPY . .
 
 # Run Application
-CMD [ "poetry", "run", "python", "-m", "run"  ]
+EXPOSE 5000
+CMD [ "poetry", "run", "flask", "--app", "flask_blog", "run" ]
