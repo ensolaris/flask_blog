@@ -38,5 +38,4 @@ RUN poetry install --no-interaction --no-cache --no-dev --no-root
 COPY . .
 
 # Run Application
-EXPOSE 5000
-CMD [ "poetry", "run", "python", "-m", "run", "run", "--host=0.0.0.0" ]
+CMD [ "poetry", "run", "python", "-m", "run"  ]
