@@ -25,6 +25,8 @@ COPY --from=poetry-base ${POETRY_VENV} ${POETRY_VENV}
 # Add Poetry to PATH
 ENV PATH="${PATH}:${POETRY_VENV}/bin"
 
+WORKDIR /flask_blog
+
 # Copy Dependencies
 COPY poetry.lock pyproject.toml ./
 
@@ -35,7 +37,7 @@ RUN poetry check
 RUN poetry install --no-interaction --no-cache --without dev
 
 # Copy Application
-COPY . .
+COPY . /flask_blog
 
 # Run Application
 EXPOSE 5000
